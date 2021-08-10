@@ -14,6 +14,7 @@ except ModuleNotFoundError:
     else:
         print("\nEsta instalacion solo pasa una vez...\n")
         time.sleep(1)
+        os.system("chmod +x codify.py")
         os.system("python3 -m pip install colorama")
 YELLOW = Fore.YELLOW
 RED = Fore.RED
